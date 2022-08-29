@@ -69,6 +69,15 @@ footer li {
   font-family: var(--font-main);
 }
 
+.home-hooker h1,
+.home-hooker p,
+.recipes-week h2,
+article footer h1,
+footer h2,
+footer ul {
+  line-height: 1.2;
+}
+
 header {
   padding: 17px 71px;
 }
@@ -99,13 +108,11 @@ header ul {
 
 .home-hooker h1 {
   font-size: 24px;
-  line-height: 1.2;
   margin: 11px 0 12px;
 }
 
 .home-hooker p {
   margin-bottom: 13px;
-  line-height: 1.2;
 }
 
 .author-item {
@@ -121,7 +128,6 @@ header ul {
 .recipes-week h2 {
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.2;
 }
 
 section a {
@@ -151,7 +157,6 @@ article footer {
 
 article footer h1 {
   font-weight: 400;
-  line-height: 1.2;
 }
 
 hr {
@@ -166,10 +171,8 @@ footer {
 
 footer h2 {
   font-size: 20px;
-  line-height: 1.2;
 }
 
 footer ul {
   list-style-type: none;
-  line-height: 1.2;
 }

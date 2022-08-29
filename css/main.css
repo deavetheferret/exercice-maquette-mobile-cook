@@ -25,6 +25,7 @@
 
 html {
   font-size: 16px;
+  background-color: #000;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
   margin: auto;
   font-size: 1rem;
   line-height: 1.5rem;
+  background-color: #fff;
 }
 
 a {
@@ -51,3 +53,61 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.home-hooker p,
+.home-hooker h1,
+.recipes-week h2,
+footer h2 {
+  font-family: var(--font-secondary);
+}
+
+header,
+.hook-item,
+.author-item,
+.recipes-preview h1,
+footer li {
+  font-family: var(--font-main);
+}
+
+header {
+  padding: 20px 50px;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-hooker {
+  text-align: center;
+}
+
+.home-hooker div {
+  padding: 20px 17px;
+}
+
+.hook-item {
+  color: var(--color-main);
+  background-color: var(--color-special);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-hooker h1 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 15px 0 12px;
+}
+
+.home-hooker p {
+  margin-bottom: 12px;
+}
+
+.author-item {
+  font-weight: 700;
+  text-transform: uppercase;
+}

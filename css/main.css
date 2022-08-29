@@ -124,8 +124,12 @@ header ul {
   line-height: 1.2;
 }
 
+section a {
+  text-decoration: none;
+}
+
 article {
-  margin: 20px 0;
+  margin: 13px 0;
 }
 
 article header {
@@ -139,4 +143,17 @@ article header img {
 
 article footer {
   background-color: var(--color-main);
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 17px;
 }
+
+article footer h1 {
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+hr {
+  border: solid 1px var(--color-third);
+}
+

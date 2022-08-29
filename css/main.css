@@ -2,7 +2,15 @@
 // css variables
 // ==================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&family=Sorts+Mill+Goudy&display=swap');
+
 :root {
+  --color-main: #fff;
+  --color-special: #e33d26;
+  --color-secondary: #ebede8;
+  --color-third: #000;
+  --font-main: 'Libre Franklin', sans-serif;
+  --font-secondary: 'Sorts Mill Goudy', serif;
 }
 
 /* ====================================
@@ -23,7 +31,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-
+  width: 320px;
+  margin: auto;
   font-size: 1rem;
   line-height: 1.5rem;
 }

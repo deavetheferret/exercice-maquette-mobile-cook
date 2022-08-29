@@ -70,7 +70,7 @@ footer li {
 }
 
 header {
-  padding: 20px 50px;
+  padding: 17px 71px;
 }
 
 header ul {
@@ -84,13 +84,13 @@ header ul {
 }
 
 .home-hooker div {
-  padding: 20px 17px;
+  padding: 12px 17px;
 }
 
 .hook-item {
   color: var(--color-main);
   background-color: var(--color-special);
-  padding: 4px 10px;
+  padding: 2px 15px;
   border-radius: 20px;
   font-size: 11px;
   font-weight: 700;
@@ -100,14 +100,43 @@ header ul {
 .home-hooker h1 {
   font-size: 24px;
   line-height: 1.2;
-  margin: 15px 0 12px;
+  margin: 11px 0 12px;
 }
 
 .home-hooker p {
-  margin-bottom: 12px;
+  margin-bottom: 13px;
+  line-height: 1.2;
 }
 
 .author-item {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.recipes-week {
+  background-color: var(--color-secondary);
+  padding: 46px 15px;
+}
+
+.recipes-week h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+article {
+  margin: 20px 0;
+}
+
+article header {
+  height: 100%;
+  padding: 0;
+}
+
+article header img {
+  height: 100%;
+}
+
+article footer {
+  background-color: var(--color-main);
 }

@@ -84,7 +84,7 @@ header ul {
 }
 
 .home-hooker div {
-  padding: 12px 17px;
+  padding: 12px 17px 26px;
 }
 
 .hook-item {
@@ -115,7 +115,7 @@ header ul {
 
 .recipes-week {
   background-color: var(--color-secondary);
-  padding: 46px 15px;
+  padding: 31px 15px 18px;
 }
 
 .recipes-week h2 {
@@ -146,6 +146,7 @@ article footer {
   padding: 20px 20px;
   text-align: center;
   font-size: 17px;
+  color: var(--color-third);
 }
 
 article footer h1 {
@@ -157,3 +158,18 @@ hr {
   border: solid 1px var(--color-third);
 }
 
+footer {
+  background-color: var(--color-third);
+  color: var(--color-main);
+  padding: 30px 16px;
+}
+
+footer h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer ul {
+  list-style-type: none;
+  line-height: 1.2;
+}
